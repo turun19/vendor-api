@@ -1,11 +1,12 @@
 CRUD Vendor
 
-Disini saya menggunakan Java 17, Maven 3.9.1, PostgreSQL 16 dan IntelliJ IDEA.
+Disini saya menggunakan Java 17, Maven 3.9.9, PostgreSQL 16 dan IntelliJ IDEA.
 Untuk yang pertama, bisa install: 
 - Java 17 [LINK](https://www.oracle.com/java/technologies/downloads/#jdk17-windows)
 - Maven 3.9.9 [(LINK)](https://maven.apache.org/download.cgi)
 - PostgreSQL 16 [(LINK)](https://sbp.enterprisedb.com/getfile.jsp?fileid=1259129)
 - IntelliJ IDEA [(LINK)](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC)
+
 Setelah terinstall set environment variable kedalam system yang ada di PATH
 Instalasi Java 
 1.	Setelah Terinstall bisa untuk mencari 
@@ -86,6 +87,8 @@ Menjalankan Code di Local
 5.	Sebelum itu, kita buat database terlebih dahulu di pgadmin4 yang sudah terinstal, lalu buat database baru dan restore database yang sudah tersedia di project tersebut di package database. Dan untuk pembuatan databasenya samakan saja dengan nama database yang sudah diekspor agar memudahkan saat dijalankan nanti
 6.	Setelah restore selesai, kita Kembali ke intellij, pergi ke application properties yang tepatnya berada di package resource
 7.	Lalu di bagian spring datasource password ubah password sesuai dengan yang tadi dimasukan passwordnya saat diinstal
-8.	Setelah selesai, running code di intellij menggunakan tombol running di atas dan tunggu sampai ada pemberitahuan “Started TechnicalTestPtsisiApplication in 4.336 seconds”
-9.	Setelah programnya berjalan, bisa buka chrome dan masukan link tsb untuk melihat dokumentasi
-10.	Lalu coba untuk hit api yang telah dibuat ada untuk register, login, menambah vendor, mengupdate vendor, melihat nama vendor yang sudah ditambahkan dan juga bisa menghapus vendor juga dari yang sudah ditambahkan.
+8.	Setelah terbuka, install lombok pada intellij, untuk installnya ke File -> Setting -> Plugins -> Search Lombok -> Install
+9.	Setelah selesai, running code di intellij menggunakan tombol running di atas dan tunggu sampai ada pemberitahuan “Started TechnicalTestPtsisiApplication in 4.336 seconds”
+10.	Setelah programnya berjalan, bisa buka chrome dan masukan link tsb untuk melihat dokumentasi, untuk melihat dokumentasinya bisa klik link berikut
+http://localhost:8080/swagger-ui/index.html#/
+11.	Lalu coba untuk hit api yang telah dibuat ada untuk register, login, menambah vendor, mengupdate vendor, melihat nama vendor yang sudah ditambahkan dan juga bisa menghapus vendor juga dari yang sudah ditambahkan.

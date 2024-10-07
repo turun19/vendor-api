@@ -74,7 +74,7 @@ Lalu buka terminal / command prompt lalu ketik mvn –version untuk memastikan j
 - Install Intellij IDEA
 1.	Setelah Download link yang diatas untuk intellij, install dengan setting default
 2.	Setelah proses selesai, buka intellij idea apakah sudah terinstall dengan baik
-Install PostgreSQL
+- Install PostgreSQL
 1.	Setelah Download selesai dengan link diatas, install PostgreSQL
 2.	Setelah itu lakukan penginstalan seperti biasa, dan jangan lupa untuk set passwordnya dan untuk portnya default saja 5432
 3.	Dan untuk database clusternya silahkan pilih default locale saja. Dan tunggu hingga kelar

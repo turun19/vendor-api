@@ -96,7 +96,6 @@ Lalu buka terminal / command prompt lalu ketik mvn –version untuk memastikan j
 ![image](https://github.com/user-attachments/assets/b258f7df-f879-4f3b-acdc-af6324c75120)
 
 8. Setelah terinstall kita langsung running, untuk running bisa menggunakan tombol diatas, atau bisa ke yang ada di gambar. atau bisa juga dengan menggunakan command "mvn spring-boot:run"
-![image](https://github.com/user-attachments/assets/0d7393ae-eec3-4277-bdc0-5665bb7c938f)
 ![image](https://github.com/user-attachments/assets/2386c2fb-7cc8-4295-bf01-8200144651cb)
 
 

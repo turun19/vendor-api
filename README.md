@@ -101,3 +101,7 @@ Menjalankan Code di Local
 10.	Setelah programnya berjalan, bisa buka chrome dan masukan link tsb untuk melihat dokumentasi, untuk melihat dokumentasinya bisa klik link berikut
 http://localhost:8080/swagger-ui/index.html#/
 11.	Lalu coba untuk hit api yang telah dibuat ada untuk register, login, menambah vendor, mengupdate vendor, melihat nama vendor yang sudah ditambahkan dan juga bisa menghapus vendor juga dari yang sudah ditambahkan.
+12.	atau juga bisa login dengan akun yang sudah terbuat dengan 
+email : fulan@gmail.com
+password : fulan123
+dan langsung mendapatkan token untuk mendapatkan akses ke endpoint yang membutuhkan token

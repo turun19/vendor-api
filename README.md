@@ -3,7 +3,7 @@ CRUD Vendor
 Disini saya menggunakan Java 17, Maven 3.9.9, PostgreSQL 16 dan IntelliJ IDEA.
 Untuk yang pertama, bisa install: 
 - Java 17 [LINK](https://www.oracle.com/java/technologies/downloads/#jdk17-windows)
-- Maven 3.9.9 [(LINK)](https://maven.apache.org/download.cgi)
+- Maven 3.9.9 [(LINK)](https://maven.apache.org/download.cgi) pilih dibagian zip
 - PostgreSQL 16 [(LINK)](https://sbp.enterprisedb.com/getfile.jsp?fileid=1259129)
 - IntelliJ IDEA [(LINK)](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC)
 
@@ -82,13 +82,22 @@ Menjalankan Code di Local
 ![image](https://github.com/user-attachments/assets/07161c1d-80bc-42f6-aff0-c56ef043a126)
 
 
-3.	Silahkan untuk memasukan link URL(LINK) untuk mengclone repository
-4.	Setelah sudah tunggu beberapa saat karna sedang membuild mavennya dan javanya
-5.	Sebelum itu, kita buat database terlebih dahulu di pgadmin4 yang sudah terinstal, lalu buat database baru dan restore database yang sudah tersedia di project tersebut di package database. Dan untuk pembuatan databasenya samakan saja dengan nama database yang sudah diekspor agar memudahkan saat dijalankan nanti
-6.	Setelah restore selesai, kita Kembali ke intellij, pergi ke application properties yang tepatnya berada di package resource
-7.	Lalu di bagian spring datasource password ubah password sesuai dengan yang tadi dimasukan passwordnya saat diinstal
-8.	Setelah terbuka, install lombok pada intellij, untuk installnya ke File -> Setting -> Plugins -> Search Lombok -> Install
+2.	Silahkan untuk memasukan link URL[(LINK)](https://github.com/turun19/vendor-api.git) untuk mengclone repository
+3.	Setelah sudah tunggu beberapa saat karna sedang membuild mavennya dan javanya
+4.	Sebelum itu, kita buat database terlebih dahulu di pgadmin4 yang sudah terinstal, lalu buat database baru dan restore database yang sudah tersedia di project tersebut di package database. Dan untuk pembuatan databasenya samakan saja dengan nama database yang sudah diekspor agar memudahkan saat dijalankan nanti
+5.	Setelah restore selesai, kita Kembali ke intellij, pergi ke application properties yang tepatnya berada di package resource, dan ubah saja di bagian passwordnya.
+![image](https://github.com/user-attachments/assets/4fb06ca5-b123-44c9-9bdc-4453144e4d01)
+
+6.	Lalu di bagian spring datasource password ubah password sesuai dengan yang tadi dimasukan passwordnya saat diinstal
+7.	Setelah terbuka, install lombok pada intellij, untuk installnya ke File -> Setting -> Plugins -> Search Lombok -> Install
+![image](https://github.com/user-attachments/assets/b258f7df-f879-4f3b-acdc-af6324c75120)
+
+8. Setelah terinstall kita langsung running, untuk running bisa menggunakan tombol diatas, atau bisa ke yang ada di gambar
+![image](https://github.com/user-attachments/assets/0d7393ae-eec3-4277-bdc0-5665bb7c938f)
+
 9.	Setelah selesai, running code di intellij menggunakan tombol running di atas dan tunggu sampai ada pemberitahuan “Started TechnicalTestPtsisiApplication in 4.336 seconds”
+![image](https://github.com/user-attachments/assets/5f376472-94c1-47b5-b353-5e391751d343)
+
 10.	Setelah programnya berjalan, bisa buka chrome dan masukan link tsb untuk melihat dokumentasi, untuk melihat dokumentasinya bisa klik link berikut
 http://localhost:8080/swagger-ui/index.html#/
 11.	Lalu coba untuk hit api yang telah dibuat ada untuk register, login, menambah vendor, mengupdate vendor, melihat nama vendor yang sudah ditambahkan dan juga bisa menghapus vendor juga dari yang sudah ditambahkan.

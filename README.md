@@ -2,7 +2,7 @@ CRUD Vendor
 
 Disini saya menggunakan Java 17, Maven 3.9.9, PostgreSQL 16 dan IntelliJ IDEA.
 Untuk yang pertama, bisa install: 
-- Java 17 [LINK](https://www.oracle.com/java/technologies/downloads/#jdk17-windows)
+- Java 17 [LINK](https://www.oracle.com/java/technologies/downloads/#jdk17-windows) (Pilih untuk dibagian java 17)
 - Maven 3.9.9 [(LINK)](https://maven.apache.org/download.cgi) pilih dibagian zip
 - PostgreSQL 16 [(LINK)](https://sbp.enterprisedb.com/getfile.jsp?fileid=1259129)
 - IntelliJ IDEA [(LINK)](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC)
@@ -95,16 +95,18 @@ Lalu buka terminal / command prompt lalu ketik mvn –version untuk memastikan j
 7.	Setelah terbuka, install lombok pada intellij, untuk installnya ke File -> Setting -> Plugins -> Search Lombok -> Install
 ![image](https://github.com/user-attachments/assets/b258f7df-f879-4f3b-acdc-af6324c75120)
 
-8. Setelah terinstall kita langsung running, untuk running bisa menggunakan tombol diatas, atau bisa ke yang ada di gambar
+8. Setelah terinstall kita langsung running, untuk running bisa menggunakan tombol diatas, atau bisa ke yang ada di gambar. atau bisa juga dengan menggunakan command "mvn spring-boot:run"
 ![image](https://github.com/user-attachments/assets/0d7393ae-eec3-4277-bdc0-5665bb7c938f)
+![image](https://github.com/user-attachments/assets/2386c2fb-7cc8-4295-bf01-8200144651cb)
 
-9.	Setelah selesai, running code di intellij menggunakan tombol running di atas dan tunggu sampai ada pemberitahuan “Started TechnicalTestPtsisiApplication in 4.336 seconds”
+
+10.	Setelah selesai, running code di intellij menggunakan tombol running di atas dan tunggu sampai ada pemberitahuan “Started TechnicalTestPtsisiApplication in 4.336 seconds”
 ![image](https://github.com/user-attachments/assets/5f376472-94c1-47b5-b353-5e391751d343)
 
-10.	Setelah programnya berjalan, bisa buka chrome dan masukan link tsb untuk melihat dokumentasi, untuk melihat dokumentasinya bisa klik link berikut
+11.	Setelah programnya berjalan, bisa buka chrome dan masukan link tsb untuk melihat dokumentasi, untuk melihat dokumentasinya bisa klik link berikut
 http://localhost:8080/swagger-ui/index.html#/
-11.	Lalu coba untuk hit api yang telah dibuat ada untuk register, login, menambah vendor, mengupdate vendor, melihat nama vendor yang sudah ditambahkan dan juga bisa menghapus vendor juga dari yang sudah ditambahkan.
-12.	atau juga bisa login dengan akun yang sudah terbuat dengan 
+12.	Lalu coba untuk hit api yang telah dibuat ada untuk register, login, menambah vendor, mengupdate vendor, melihat nama vendor yang sudah ditambahkan dan juga bisa menghapus vendor juga dari yang sudah ditambahkan.
+13.	atau juga bisa login dengan akun yang sudah terbuat dengan 
 email : fulan@gmail.com
 password : fulan123
 dan langsung mendapatkan token untuk mendapatkan akses ke endpoint yang membutuhkan token

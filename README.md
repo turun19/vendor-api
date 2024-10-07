@@ -8,7 +8,8 @@ Untuk yang pertama, bisa install:
 - IntelliJ IDEA [(LINK)](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC)
 
 Setelah terinstall set environment variable kedalam system yang ada di PATH
-Instalasi Java 
+
+- Instalasi Java 
 1.	Setelah Terinstall bisa untuk mencari 
 
 ![image](https://github.com/user-attachments/assets/ef497e21-ebf1-4929-afa2-ff227bd01df1)
@@ -48,7 +49,7 @@ c: \ Program Files \ Java \ jdk1.8.0_xx \ bin
 6.	Buat memastikan apakah Java sudah terinstall dengan benar, buka terminal cmd. Lalu ketik java –version. Kalau berhasil, maka informasi versi pada Java akan muncul seperti gambar berikut
 ![image](https://github.com/user-attachments/assets/1a04fc9e-ad5c-42b9-9756-380a0c8e68d5)
 
-Install Maven :
+- Install Maven :
 1.	Setelah Terdownload Maven 3.9.1, Extract file zip yang telah didownload dan letakan folder hasil extract ke direktori yang diinginkan
 2.	Lalu bisa pilih Environtment Variables
 ![image](https://github.com/user-attachments/assets/dcfaf5d9-8cef-4807-9f59-a937d6bc4f90)
@@ -70,14 +71,16 @@ C:\Users\any_user\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1
  
 
 Lalu buka terminal / command prompt lalu ketik mvn –version untuk memastikan jika apache maven telah terinstall
-Install Intellij IDEA
+- Install Intellij IDEA
 1.	Setelah Download link yang diatas untuk intellij, install dengan setting default
 2.	Setelah proses selesai, buka intellij idea apakah sudah terinstall dengan baik
 Install PostgreSQL
 1.	Setelah Download selesai dengan link diatas, install PostgreSQL
 2.	Setelah itu lakukan penginstalan seperti biasa, dan jangan lupa untuk set passwordnya dan untuk portnya default saja 5432
 3.	Dan untuk database clusternya silahkan pilih default locale saja. Dan tunggu hingga kelar
-Menjalankan Code di Local
+
+
+- Menjalankan Code di Local
 1.	Setelah semuanya terinstall, kitab isa langsung ke Get from VCS
 ![image](https://github.com/user-attachments/assets/07161c1d-80bc-42f6-aff0-c56ef043a126)
 

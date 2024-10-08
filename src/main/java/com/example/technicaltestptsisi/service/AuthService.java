@@ -68,7 +68,7 @@ public class AuthService {
 
     }
 
-    public String registerUsers(RegisterUsers registerUsers){
+    public void registerUsers(RegisterUsers registerUsers){
         validationService.validate(registerUsers);
         if(userRepository.existsByEmail(registerUsers.getEmail())){
             log.info("Already Use Email!");
@@ -93,7 +93,6 @@ public class AuthService {
         users.setRoles(roles);
         log.info("Success create account!");
         userRepository.save(users);
-        return "Success Create Account";
     }
 
     public ResponseCookie logOut(){

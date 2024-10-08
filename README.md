@@ -81,31 +81,32 @@ Lalu buka terminal / command prompt lalu ketik mvn –version untuk memastikan j
 
 
 - Menjalankan Code di Local
-1.	Setelah semuanya terinstall, kitab isa langsung ke Get from VCS
+1.	Setelah semuanya terinstall, kita bisa langsung ke Get from VCS
 ![image](https://github.com/user-attachments/assets/07161c1d-80bc-42f6-aff0-c56ef043a126)
 
 
 2.	Silahkan untuk memasukan link URL[(LINK)](https://github.com/turun19/vendor-api.git) untuk mengclone repository
 3.	Setelah sudah tunggu beberapa saat karna sedang membuild mavennya dan javanya
 4.	Sebelum itu, kita buat database terlebih dahulu di pgadmin4 yang sudah terinstal, lalu buat database baru dan restore database yang sudah tersedia di project tersebut di package database. Dan untuk pembuatan databasenya samakan saja dengan nama database yang sudah diekspor agar memudahkan saat dijalankan nanti
-5.	Setelah restore selesai, kita Kembali ke intellij, pergi ke application properties yang tepatnya berada di package resource, dan ubah saja di bagian passwordnya.
+5.	Setelah restore selesai, kita Kembali ke intellij, pergi ke application properties yang tepatnya berada di package resource, dan ubah saja di bagian passwordnya sesuai dengan password yang diset saat menginstall postgres untuk dibagian spring datasource.
 ![image](https://github.com/user-attachments/assets/4fb06ca5-b123-44c9-9bdc-4453144e4d01)
 
-6.	Lalu di bagian spring datasource password ubah password sesuai dengan yang tadi dimasukan passwordnya saat diinstal
-7.	Setelah terbuka, install lombok pada intellij, untuk installnya ke File -> Setting -> Plugins -> Search Lombok -> Install
+
+6.	Setelah terbuka, install lombok pada intellij, untuk installnya ke File -> Setting -> Plugins -> Search Lombok -> Install
 ![image](https://github.com/user-attachments/assets/b258f7df-f879-4f3b-acdc-af6324c75120)
 
-8. Setelah terinstall kita langsung running, untuk running bisa menggunakan tombol diatas, atau bisa ke yang ada di gambar. atau bisa juga dengan menggunakan command "mvn spring-boot:run"
+7. Setelah terinstall kita langsung running, untuk running bisa menggunakan tombol diatas, atau bisa ke yang ada di gambar. atau bisa juga dengan menggunakan command "mvn spring-boot:run"
 ![image](https://github.com/user-attachments/assets/2386c2fb-7cc8-4295-bf01-8200144651cb)
 
 
-10.	Setelah selesai, running code di intellij menggunakan tombol running di atas dan tunggu sampai ada pemberitahuan “Started TechnicalTestPtsisiApplication in 4.336 seconds”
+8.	Setelah selesai, running code di intellij menggunakan tombol running di atas dan tunggu sampai ada pemberitahuan “Started TechnicalTestPtsisiApplication in 4.336 seconds”
 ![image](https://github.com/user-attachments/assets/5f376472-94c1-47b5-b353-5e391751d343)
 
-11.	Setelah programnya berjalan, bisa buka chrome dan masukan link tsb untuk melihat dokumentasi, untuk melihat dokumentasinya bisa klik link berikut
+9.	Setelah programnya berjalan, bisa buka chrome dan masukan link tsb untuk melihat dokumentasi, untuk melihat dokumentasinya bisa klik link berikut
 http://localhost:8080/swagger-ui/index.html#/
-12.	Lalu coba untuk hit api yang telah dibuat ada untuk register, login, menambah vendor, mengupdate vendor, melihat nama vendor yang sudah ditambahkan dan juga bisa menghapus vendor juga dari yang sudah ditambahkan.
-13.	atau juga bisa login dengan akun yang sudah terbuat dengan 
+10.	Lalu coba untuk hit api yang telah dibuat ada untuk register, login, menambah vendor, mengupdate vendor, melihat nama vendor yang sudah ditambahkan dan juga bisa menghapus vendor juga dari yang sudah ditambahkan.
+11.	atau juga bisa login dengan akun yang sudah terbuat dengan 
 email : fulan@gmail.com
 password : fulan123
 dan langsung mendapatkan token untuk mendapatkan akses ke endpoint yang membutuhkan token
+12. Setelah mendapatkan token, bisa ke Authorize untuk memasukan token dan bisa langsung mengakses api yang membutuhkan akses token
